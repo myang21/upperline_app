@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.99.0/css/materialize.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.99.0/js/materialize.min.js"></script>
+    <title>Get Pet</title>
+    <style>
+      p {
+        font-family:"Roboto";
+        color:blue;
+      }
+    </style>
+  </head>
+  
+  <body>
+    <div class="card-panel blue lighten-2 hoverable"><h1>What pet should you get?<h1></div>
+    <div class="row">
+      <div class="col s6">
+        <p class="flow-text">How big is your living space?</p>
+        <form method="POST" action="/" id="form".to_i>
+          <p>
+            <input name="livingspace" type="radio" value=1 id="test11" />
+            <label for="test11">Extremely small</label>
+          </p>
+          <p>
+            <input name="livingspace" type="radio" value=2 id="test12" />
+            <label for="test12">Really small</label>
+          </p>
+          <p>
+            <input name="livingspace" type="radio" value=3 id="test13"  />
+            <label for="test13">Small</label>
+          </p>
+          <p>
+            <input name="livingspace" type="radio" value=4 id="test14" />
+            <label for="test14">Medium-small</label>
+          </p>
+          <p>
+            <input name="livingspace" type="radio" value=5 id="test15" />
+            <label for="test15">Medium</label>
+          </p>
+          <p>
+            <input name="livingspace" type="radio" value=6 id="test16" />
+            <label for="test16">Large</label>
+          </p>
+          <br /> 
+          <p class="flow-text">How big of a problem is noise?</p>
+          <p>
+            <input name="noise" type="radio" value=1 id="test21" />
+            <label for="test21">A huge problem</label>
+          </p>
+          <p>
+            <input name="noise" type="radio" value=2 id="test22" />
+            <label for="test22">A big problem</label>
+          </p>
+          <p>
+            <input name="noise" type="radio" value=3 id="test23"  />
+            <label for="test23">A problem</label>
+          </p>
+          <p>
+            <input name="noise" type="radio" value=4 id="test24" />
+            <label for="test24">An inconvenience</label>
+          </p>
+          <p>
+            <input name="noise" type="radio" value=5 id="test25" />
+            <label for="test25">Barely a problem</label>
+          </p>
+          <p>
+            <input name="noise" type="radio" value=6 id="test26" />
+            <label for="test26">No problem</label>
+          </p>
+          <br /> 
+          <p class="flow-text">How much are you willing to spend on your pet?</p>
+          <p>
+            <input name="price" type="radio" value=1 id="test31" />
+            <label for="test31">I want to spend as little as possible</label>
+          </p>
+          <p>
+            <input name="price" type="radio" value=2 id="test32" />
+            <label for="test32">I'm willing to spend very little</label>
+          </p>
+          <p>
+            <input name="price" type="radio" value=3 id="test33"  />
+            <label for="test33">I'm willing to spend a little</label>
+          </p>
+          <p>
+            <input name="price" type="radio" value=4 id="test34" />
+            <label for="test34">I'd prefer not to spend very much, but I will if necessary</label>
+          </p>
+          <p>
+            <input name="price" type="radio" value=5 id="test35"/>
+            <label for="test35">I'm willing to spend a decent amount</label>
+          </p>
+          <p>
+            <input name="price" type="radio" value=6 id="test36" />
+            <label for="test36">I'm willing to spend as much as needed</label>
+          </p>
+          <br /> 
+          <p class="flow-text">How much time will you be able to spend with you pet?</p>
+          <p>
+            <input name="time" type="radio" value=1 id="test41" />
+            <label for="test41">Barely any time</label>
+          </p>
+          <p>
+            <input name="time" type="radio" value=2 id="test42" />
+            <label for="test42">A very little time</label>
+          </p>
+          <p>
+            <input name="time" type="radio" value=3 id="test43"  />
+            <label for="test43">A little time</label>
+          </p>
+          <p>
+            <input name="time" type="radio" value=4 id="test44" />
+            <label for="test44">A decent amount of time</label>
+          </p>
+          <p>
+            <input name="time" type="radio" value=5 id="test45" />
+            <label for="test45">A lot of time</label>
+          </p>
+          <p>
+            <input name="time" type="radio" value=6 id="test46" />
+            <label for="test46">As much time as possible!</label>
+          </p>
+          <br />
+          <button class="btn waves-effect waves-light hoverable" type="submit" name="action">Submit</button>
+        </form>
+      </div>
+    <div class="col s6">
+      <iframe src="https://giphy.com/embed/bDL3BsB4ViI2k" width="480" height="360" frameBorder="0" class="giphy-embed hoverable" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/morning-hungover-bDL3BsB4ViI2k"></a></p>
+    <iframe src="https://giphy.com/embed/12nohcRTMTOU00" width="480" height="270" frameBorder="0" class="giphy-embed hoverable" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/dog-skateboard-riding-12nohcRTMTOU00"></a></p>
+    <iframe src="https://giphy.com/embed/PPy2wTXW9BJok" width="480" height="270" frameBorder="0" class="giphy-embed hoverable" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/ball-rolling-PPy2wTXW9BJok"></a></p>
+    <iframe src="https://giphy.com/embed/GnCc88zZhSVUc" width="480" height="365" frameBorder="0" class="giphy-embed hoverable" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/hungry-hamster-GnCc88zZhSVUc"></a></p>
+  </body>
+<html>
+
